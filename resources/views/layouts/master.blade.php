@@ -92,7 +92,7 @@
             <div class="owl-carousel main-slider">
                 <div class="main-slider__item">
                     <a href="#">
-                        <img src="/img/tmp/main-slider.png" alt="DALGAKIRAN - RUSSIA"/>
+                        <img src="{{_Helper::getSlider('main_slider')}}" alt="{{_Helper::getSliderTitle('main_slider')}}"/>
                     </a>
                 </div>
             </div>
