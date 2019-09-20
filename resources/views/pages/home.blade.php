@@ -63,11 +63,14 @@
                 <div class="catalog-categories__items">
                     @isset($categories)
                         @foreach($categories as $cat)
-                           <div class="cat-wrapper" style="width: 24%;">
+                           <div class="cat-wrapper" >
                                <div class="cat-img" >
                                    <a href="/products/{{$cat->slug}}">
                                        <img src="/storage/{{$cat->image}}" alt="{{$cat->title}}">
                                    </a>
+                               </div>
+                               <div class="cat-title">
+                                   <a href="/products/{{$cat->slug}}">{{$cat->name ?? ''}}</a>
                                </div>
                            </div>
                         @endforeach

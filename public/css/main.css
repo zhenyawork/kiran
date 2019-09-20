@@ -1,12 +1,26 @@
 .cat-wrapper{
-    width:250px;
+    width:285px;
+    height: 295px;
     background-color: white;
     margin-bottom:20px;
+    overflow: hidden;
+}
+
+.cat-img{
+    width: 250px;
+    height: 250px;
+
+    margin:0 auto;
 }
 .cat-wrapper img{
     width:230px;
     text-align: center;
     margin:0 auto;
-    margin-left:30px;
-
+    margin:10px 8px;
+}
+.cat-title{text-align: center; margin:0 auto; height:30px;}
+.cat-title a{
+    color:#2b2a29;
+    text-transform: uppercase;
+    text-decoration: none;
 }
