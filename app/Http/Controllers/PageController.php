@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Http\Helpers\_Helper;
 use Illuminate\Http\Request;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
@@ -12,8 +13,9 @@ class PageController extends Controller
 {
     public function homepage()
     {
-       // dd(_Helper::getSlider('main_slider'));
-        return view('pages.home');
+       $data['categories'] = Category::all();
+
+        return view('pages.home', $data);
     }
 
 

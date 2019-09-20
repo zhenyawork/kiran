@@ -1,0 +1,12 @@
+.cat-wrapper{
+    width:250px;
+    background-color: white;
+    margin-bottom:20px;
+}
+.cat-wrapper img{
+    width:230px;
+    text-align: center;
+    margin:0 auto;
+    margin-left:30px;
+
+}
