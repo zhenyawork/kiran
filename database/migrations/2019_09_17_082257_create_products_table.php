@@ -25,8 +25,7 @@ class CreateProductsTable extends Migration
             $table->integer('stock')->nullable();
             $table->integer('active')->nullable();
             $table->float('stars')->nullable();
-            $table->integer('category_id')->nullable();
-            
+            $table->integer('line_id')->nullable();
             $table->string('manufacture')->nullable();
             $table->string('country')->nullable();
             $table->string('vid_compresora')->nullable();

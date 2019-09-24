@@ -23,7 +23,7 @@
 <header class="header">
     <div class="header__container container">
         <div class="header__tech">ТЕХНОЛОГИИ СЖАТОГО ВОЗДУХА</div>
-        <a href="index.html" class="header__logo">
+        <a href="/" class="header__logo">
             <img src="/img/logo.png" class="header__logo-img" alt="DALGAKIRAN Compressor Logo"/>
         </a>
         <div class="header__search">

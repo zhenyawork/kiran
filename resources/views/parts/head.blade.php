@@ -19,6 +19,7 @@
     <meta name="keywords" content="" />
 
     <!-- Styles -->
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
 

@@ -9,7 +9,6 @@
 
 <section class="content">
     @section('content')
-
     @show
 </section>
 <footer>
@@ -109,6 +108,7 @@
 
 
 <script src="/js/scripts.js"></script>
+<script src="/js/main.js"></script>
 
 
 

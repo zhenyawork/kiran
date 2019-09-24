@@ -65,12 +65,12 @@
                         @foreach($categories as $cat)
                            <div class="cat-wrapper" >
                                <div class="cat-img" >
-                                   <a href="/products/{{$cat->slug}}">
+                                   <a href="{{route('category', $cat->slug)}}">
                                        <img src="/storage/{{$cat->image}}" alt="{{$cat->title}}">
                                    </a>
                                </div>
                                <div class="cat-title">
-                                   <a href="/products/{{$cat->slug}}">{{$cat->name ?? ''}}</a>
+                                   <a href="{{route('category', $cat->slug)}}">{{$cat->name ?? ''}}</a>
                                </div>
                            </div>
                         @endforeach
